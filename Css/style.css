@@ -90,6 +90,7 @@ button{
     justify-content: space-evenly;
     font-size: 20px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .contents h3{
@@ -104,3 +105,60 @@ button{
     border: 20px solid aquamarine;
 }
 
+/* quote section */
+
+.quote-section{
+    background-color: grey;
+    text-align: center;
+    font-size:45px;
+    padding: 100px 200px;
+}
+
+.quote-section p{
+    text-align: right;
+    font-size: 28px;
+    font-weight: bolder;
+
+}
+
+/* follow section*/
+
+.Ins .container{
+    display:flex;
+    padding: 20px 30px;
+    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #3882F6;
+    margin: 50px auto;
+    border-radius: 4em;
+}
+
+.Ins button{
+    background-color: white;
+    border-radius: 30em;
+}
+
+.Ins button:hover{
+    background-color: antiquewhite;
+}
+
+.Ins .container img{
+    width: 100px;
+    height:auto;
+}
+
+.Ins .container p{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* footer section */
+.footer{
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
