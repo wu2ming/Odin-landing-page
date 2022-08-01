@@ -1,14 +1,17 @@
+
 .header {
     display:flex;
     background-color: #1F2937;
     padding: 10px;
     align-items: center;
+    font-family: 'Cormorant SC', serif;
 }
 
 .header img{
     width: 150px;
     height: auto;
     margin-left: 88px;
+    font-family: Arial;
 }
 
 .header ul {
@@ -54,6 +57,8 @@ body{
     color: white;
     padding-bottom: 100px;
     flex-wrap:wrap;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
 }
 
 .main-text .container{
@@ -69,6 +74,8 @@ body{
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+    line-height: 100px;
+    font-family: 'Cormorant SC', serif;
 }
 
 button{
@@ -100,10 +107,15 @@ button{
     font-size: 32px;
     text-align: center;
     margin-bottom: 50px;
+    font-family: 'Cormorant SC', serif;
 }
 
 .contents .subtext img{
     border: 20px solid aquamarine;
+}
+
+.contents .subtext{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 /* quote section */
@@ -141,6 +153,11 @@ button{
     background-color: #3882F6;
     margin: 50px auto;
     border-radius: 4em;
+    font-family: 'Cormorant SC', serif;
+}
+
+.Ins .container em{
+    font-family:'Times New Roman', Times, serif;
 }
 
 .Ins button{
