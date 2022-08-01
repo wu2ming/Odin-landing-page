@@ -49,20 +49,31 @@ body{
 
 /* Main content section */
 
+
 .main-text{
     display:flex;
     justify-content: center;
     gap: 50px;
+    background-image: url("../images/bg1.jpg");
     background-color: #1F2937;
-    color: white;
-    padding-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    padding: 50px;
     flex-wrap:wrap;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 20px;
+    font-weight: bold;
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
 }
 
 .main-text .container{
     max-width: 600px;
+    align-items: center;
 }
 
 .main-text img{
